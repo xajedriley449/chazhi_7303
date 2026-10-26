@@ -1,0 +1,11 @@
+{
+    "projection": "xy",
+    "seq_len": 10,
+    "batch_size": 4,
+    "epochs": 60,
+    "hidden_dim": 32,
+    "num_layers": 2,
+    "learning_rate": 0.001,
+    "data_dir": "E:\\bye\\code\\chazhi_7303\\input_txyz\\e_data\\matrix_npy\\xy",
+    "cov_dir": "E:\\bye\\code\\chazhi_7303\\input_txyz\\red_cov\\matrix_npy\\xy"
+}

@@ -1,0 +1,25 @@
+{
+  "projection": "xy",
+  "seq_len": 10,
+  "batch_size": 4,
+  "epochs": 60,
+  "hidden_dim": 32,
+  "num_layers": 2,
+  "learning_rate": 0.001,
+  "train_fraction": 0.8,
+  "validation_fraction_within_train": 0.1,
+  "seed": 42,
+  "input_channels": [
+    "e_data",
+    "ahead",
+    "behind"
+  ],
+  "cov_channels": [
+    "ahead",
+    "behind"
+  ],
+  "data_dir": "E:\\bye\\code\\chazhi_7303\\input_txyz\\e_data\\matrix_npy\\xy",
+  "cov_dir": "E:\\bye\\code\\chazhi_7303\\input_txyz\\face_distance\\matrix_npy\\stacked\\xy",
+  "cov_normalization": "one shared max-absolute scale fitted on training frames across ahead and behind; clipped to [0, 1]",
+  "target": "next-frame e_data"
+}
